@@ -1,10 +1,6 @@
-<p align="center">
-  <img src="assets/banner.png" alt="Anthropic Cybersecurity Skills" width="100%">
-</p>
-
 <div align="center">
 
-#  Anthropic Cybersecurity Skills
+#  Cybersecurity Skills
 
 ### The largest open-source cybersecurity skills library for AI agents
 
@@ -31,8 +27,6 @@
 
 ---
 
-> ⚠️ **Community Project** — This is an independent, community-created project. Not affiliated with Anthropic PBC. 
-
 ## Give any AI agent the security skills of a senior analyst
 
 A junior analyst knows which Volatility3 plugin to run on a suspicious memory dump, which Sigma rules catch Kerberoasting, and how to scope a cloud breach across three providers. **Your AI agent doesn't — unless you give it these skills.**
@@ -56,55 +50,6 @@ No other open-source skills library maps every skill to all five frameworks.  On
 | Skill | ATT&CK | NIST CSF | ATLAS | D3FEND | AI RMF |
 |---|---|---|---|---|---|
 | `analyzing-network-traffic-of-malware` | T1071 | DE.CM | AML.T0047 | D3-NTA | MEASURE-2.6 |
-
-## Quick start
-
-```bash
-# Option 1: npx (recommended)
-npx skills add mukul975/Anthropic-Cybersecurity-Skills
-
-# Option 2: Git clone
-git clone https://github.com/mukul975/Anthropic-Cybersecurity-Skills.git
-cd Anthropic-Cybersecurity-Skills
-```
-
-Works immediately with Claude Code, GitHub Copilot, OpenAI Codex CLI, Cursor, Gemini CLI, and any [agentskills.io](https://agentskills.io)-compatible platform. 
-
-## 🌍 GARS-2026 — Global Agentic AI Readiness Survey
-
-I'm running a global academic study measuring how ready security professionals,
-developers, and enterprise teams actually are for agentic AI — MCP servers,
-tool calling, governance, and human-in-the-loop workflows.
-
-**If you use this repo, your response would be a genuinely valuable data point.**
-
-📋 **Take the survey (10 min):**
-[Survey Link](https://mahipal.engineer/survey?utm_source=github_repo&utm_medium=readme&utm_campaign=gars2026)
-
-- 60 questions · Anonymous · Supervised by SRH Berlin
-- You get **50 Casky Tokens** for early access to [casky.ai](https://casky.ai)
-- Results published open access under CC-BY 4.0
-
-## 🚀 Try it on the Playground
-
-Experience Casky.ai hands-on — no setup required.
-
-**[→ Launch Playground on Casky.ai](https://casky.ai/?utm_source=github&utm_medium=readme&utm_campaign=cohort_launch#waitlist)**
-
-The playground lets you:
-- Run live cybersecurity skill exercises against real targets
-- See AI agents execute structured skills in real time
-- Explore MITRE ATT&CK mapped workflows interactively
-- Test threat hunting, DFIR, and penetration testing scenarios
-
-No installation. No configuration. Just open and start.
-## Why this exists
-
-The cybersecurity workforce gap hit **4.8 million unfilled roles** globally in 2024 (ISC2). AI agents can help close that gap — but only if they have structured domain knowledge to work from. Today's agents can write code and search the web, but they lack the practitioner playbooks that turn a generic LLM into a capable security analyst.
-
-Existing security tool repos give you wordlists, payloads, or exploit code. None of them give an AI agent the structured decision-making workflow a senior analyst follows: when to use each technique, what prerequisites to check, how to execute step-by-step, and how to verify results. That is the gap this project fills.
-
-**Anthropic Cybersecurity Skills** is not a collection of scripts or checklists. It is an **AI-native knowledge base** built from the ground up for the agentskills.io standard  — YAML frontmatter for sub-second discovery, structured Markdown for step-by-step execution, and reference files for deep technical context.  Every skill encodes real practitioner workflows, not generated summaries. 
 
 ## What's inside — 26 security domains
 
@@ -299,14 +244,6 @@ LangChain · CrewAI · AutoGen · Semantic Kernel · Haystack · Vercel AI SDK �
 
 All platforms that support the [agentskills.io](https://agentskills.io) standard can load these skills with zero configuration. 
 
-## What people are saying
-
-> *"A database of real, organized security skills that any AI agent can plug into and use. Not tutorials. Not blog posts."* 
-> — **[Hasan Toor (@hasantoxr)](https://x.com/hasantoxr/status/2033193922349179249)**, AI/tech creator
-
-> *"This is not a random collection of security scripts. It's a structured operational knowledge base designed for AI-driven security workflows."* 
-> — **[fazal-sec](https://fazal-sec.medium.com/claude-skills-ai-powered-cybersecurity-the-complete-guide-to-building-intelligent-security-7bb7e9d14c8e)**,  Medium
-
 ## Featured in
 
 | Where | Type | Link |
@@ -316,75 +253,6 @@ All platforms that support the [agentskills.io](https://agentskills.io) standard
 | **awesome-codex-cli** | Awesome List (Codex CLI resources) | [RoggeOhta/awesome-codex-cli](https://github.com/RoggeOhta/awesome-codex-cli) |
 | **SkillsLLM** | Skills directory & marketplace | [skillsllm.com/skill/anthropic-cybersecurity-skills](https://skillsllm.com/skill/anthropic-cybersecurity-skills) |
 | **Openflows** | Signal analysis & tracking | [openflows.org](https://openflows.org/currency/currents/anthropic-cybersecurity-skills/) |
-| **NeverSight skills_feed** | Automated skills index | [NeverSight/skills_feed](https://github.com/NeverSight/skills_feed) |
+| **NeverSight skills_feed** | Automated skills index | [NeverSight/skills_feed](https://github.com/NeverSight/skills_feed) | 
 
-## Star history
 
-<a href="https://star-history.com/#mukul975/Anthropic-Cybersecurity-Skills&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=mukul975/Anthropic-Cybersecurity-Skills&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=mukul975/Anthropic-Cybersecurity-Skills&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=mukul975/Anthropic-Cybersecurity-Skills&type=Date" width="100%" />
- </picture>
-</a>
-
-## Releases
-
-| Version | Date | Highlights |
-|---|---|---|
-| [v1.0.0](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases/tag/v1.0.0) | March 11, 2026 | 734 skills · 26 domains · MITRE ATT&CK + NIST CSF 2.0 mapping · ATT&CK Navigator layer |
-
-Skills have continued to grow on `main` since v1.0.0 — the library now contains **754 skills** with **5-framework mapping**  (MITRE ATLAS, D3FEND, and NIST AI RMF added post-release).  Check [Releases](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases) for the latest tagged version.
-
-## Contributing
-
-This project grows through community contributions. Here is how to get involved:
-
-**Add a new skill** — Domains like Deception Technology (2 skills) and Compliance & Governance (5 skills) need the most help. Follow the template in [CONTRIBUTING.md](CONTRIBUTING.md) and submit a PR with the title `Add skill: your-skill-name`.
-
-**Improve existing skills** — Add framework mappings, fix workflows, update tool references, or contribute scripts and templates.
-
-**Report issues** — Found an inaccurate procedure or broken script? [Open an issue](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/issues).
-
-Every PR is reviewed for technical accuracy and agentskills.io standard compliance within 48 hours.  Check [good first issues](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) for a starting point.
-
-This project follows the [Contributor Covenant](https://www.contributor-covenant.org/). By participating, you agree to uphold this code. 
-
-## Community
-
-💬 [Discussions](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/discussions) — Questions, ideas, and roadmap conversations
-🐛 [Issues](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/issues) — Bug reports and feature requests
-🔒 [Security Policy](SECURITY.md) — Responsible disclosure process (48-hour acknowledgment) 
-
-## Citation
-
-If you use this project in research or publications:
-
-```bibtex
-@software{anthropic_cybersecurity_skills,
-  author       = {Jangra, Mahipal},
-  title        = {Anthropic Cybersecurity Skills},
-  year         = {2026},
-  url          = {https://github.com/mukul975/Anthropic-Cybersecurity-Skills},
-  license      = {Apache-2.0},
-  note         = {754 structured cybersecurity skills for AI agents,
-                  mapped to MITRE ATT\&CK, NIST CSF 2.0, MITRE ATLAS,
-                  MITRE D3FEND, and NIST AI RMF}
-}
-```
-
-## License
-
-This project is licensed under the [Apache License 2.0](LICENSE). You are free to use, modify, and distribute these skills in both personal and commercial projects. 
-
----
-
-<div align="center">
-
-**If this project helps your security work, consider giving it a ⭐**
-
-[⭐ Star](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/stargazers) · [🍴 Fork](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/fork) · [💬 Discuss](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/discussions) · [📝 Contribute](CONTRIBUTING.md)
-
-Community project by [@mukul975](https://github.com/mukul975). Not affiliated with Anthropic PBC.
-
-</div>
