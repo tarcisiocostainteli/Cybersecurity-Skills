@@ -10,19 +10,6 @@ All skill content in this repository is covered by this security policy.
 | Scripts and automation | Yes |
 | Documentation | Yes |
 
-## Reporting a Vulnerability
-
-If you discover a security issue with any skill's scripts, instructions, or content, please report it responsibly:
-
-1. **Do not** open a public issue
-2. Use GitHub's private security advisory: [Report a vulnerability](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/security/advisories/new)
-3. Include in your report:
-   - Affected skill name and file path
-   - Nature of the vulnerability
-   - Potential impact
-   - Steps to reproduce (if applicable)
-   - Suggested fix (if you have one)
-
 ## Response Timeline
 
 - **Initial acknowledgment:** Within 48 hours
